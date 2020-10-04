@@ -8,7 +8,11 @@ const moviesStore = {
   actions: {
     async fetchMovies(context) {
       console.log(context);
-      const response = await axios.get("/?i=tt0111161");
+      const response = await axios.get("/", {
+        params: {
+          i: "tt0111161"
+        }
+      });
       console.log(response);
     }
   }
