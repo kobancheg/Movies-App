@@ -6,7 +6,7 @@
 
 <script>
 import { mapActions, mapGetters } from "vuex";
-import { MoviesList } from "@/components/MoviesList";
+import MoviesList from "@/components/MoviesList";
 
 export default {
   name: "App",
