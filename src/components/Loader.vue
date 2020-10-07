@@ -22,7 +22,7 @@ export default {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  color: rgba(145, 145, 145, 0.7);
   display: flex;
   align-items: center;
   justify-content: center;
