@@ -1,6 +1,6 @@
 <template>
   <div class="loader-wrap" v-if="isShowLoader">
-    <b-spinner type="grow" label="Loading..."></b-spinner>
+    <b-spinner type="grow" variant="light" label="Loading..."></b-spinner>
   </div>
 </template>
 
@@ -22,7 +22,7 @@ export default {
   height: 100%;
   top: 0;
   left: 0;
-  color: rgba(145, 145, 145, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   align-items: center;
   justify-content: center;
